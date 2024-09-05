@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-bg-light: #f9f9f9;
+  --color-bg-dark: #2c2c34;
+  --color-text-light: #004e0d;
+  --color-text-dark: #00ff6a;
+  --color-hover: #004cff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
