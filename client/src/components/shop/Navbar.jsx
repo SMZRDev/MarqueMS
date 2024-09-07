@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./../index.css";
 
 const Navbar = () => {
   return (
@@ -8,7 +7,7 @@ const Navbar = () => {
       <nav className="bg-[var(--color-bg-light)] border-[var(--color-bg-dark)] dark:bg-[var(--color-bg-dark)]">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
           <Link
-            to="/"
+            to="/shop"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
@@ -22,7 +21,7 @@ const Navbar = () => {
           </Link>
           <div className="flex items-center space-x-6 rtl:space-x-reverse">
             <Link
-              to="/contact"
+              to="/shop/contact"
               className="text-[var(--color-text-light)] dark:text-[var(--color-text-dark)] hover:underline"
             >
               Contact
@@ -42,7 +41,7 @@ const Navbar = () => {
             <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
               <li>
                 <Link
-                  to="/"
+                  to="/shop"
                   className="text-gray-900 dark:text-white hover:text-blue"
                   aria-current="page"
                 >
@@ -51,7 +50,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/gallery"
+                  href="/shop/gallery"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
                   Gallery
@@ -59,18 +58,18 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/shop/menu"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
-                  Events
+                  Menu
                 </a>
               </li>
               <li className="relative group">
                 <a
-                  href="#"
+                  href="/shop/about"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
-                  Services
+                  About
                 </a>
                 <ul className="absolute hidden w-max mt-2 space-y-2 bg-white dark:bg-gray-800 group-hover:block">
                   <li>
