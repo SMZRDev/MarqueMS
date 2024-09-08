@@ -49,52 +49,52 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="/shop/gallery"
+                <Link
+                  to="/shop/gallery"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
                   Gallery
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/shop/menu"
+                <Link
+                  to="/shop/menu"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
                   Menu
-                </a>
+                </Link>
               </li>
               <li className="relative group">
-                <a
-                  href="/shop/about"
+                <Link
+                  to="/shop/about"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
                   About
-                </a>
+                </Link>
                 <ul className="absolute hidden w-max mt-2 space-y-2 bg-white dark:bg-gray-800 group-hover:block">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600"
                     >
                       Service 1
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600"
                     >
                       Service 2
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600"
                     >
                       Service 3
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
