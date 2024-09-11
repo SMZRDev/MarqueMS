@@ -18,7 +18,7 @@ MarqueMS is designed to streamline the management of event halls by offering a r
 
 **GitHub Repository:** [https://github.com/SMZRDev/MarqueMS.git](https://github.com/SMZRDev/MarqueMS.git)
 
-**Live Demo:** [https://marquems.vercel.app](https://marquems.vercel.app)
+**Live Demo:** [https://wasnamarque.vercel.app/](https://wasnamarque.vercel.app/)
 
 ## Features
 
