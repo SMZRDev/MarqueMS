@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import Navbar from "./components/shop/Navbar";
 import Footer from "./components/shop/Footer";
@@ -22,6 +22,25 @@ const App = () => {
   return (
     <>
       <Routes>
+        <Route
+          path=""
+          element={
+            <>
+              <Link
+                to="/shop"
+                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm pt-10 px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              >
+                Client
+              </Link>
+              <Link
+                to="/admin"
+                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm pt-10 px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              >
+                Admin
+              </Link>
+            </>
+          }
+        />
         <Route path="/admin" element={<AdminLayout />}>
           <Route path="" element={<Dashboard />} />
           <Route path="menu" element={<UpdateMenu />} />
